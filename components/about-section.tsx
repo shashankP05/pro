@@ -78,8 +78,8 @@ export function AboutSection() {
         >
 <div className="max-w-3xl mx-auto px-8 py-12 bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
   <motion.div variants={itemVariants}>
-    <h3 className="text-4xl font-bold text-gray-900 mb-6 text-center">Our Mission</h3>
-    <p className="text-gray-600 text-lg leading-relaxed text-center">
+    <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+    <p className="text-gray-600">
       We empower everyday innovators—from students to small business owners—to turn their ideas into working
       tech solutions. By providing accessible development services, we bridge the gap between vision and
       execution.

@@ -147,7 +147,7 @@ export function HeroSection() {
     {
       title: "API Development",
       subtitle: "Robust and scalable APIs for your apps",
-      image: "/images/api.jpg",
+      image: "/images/apidev.jpg",
     },
   ]
 
@@ -207,8 +207,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Supporting tech projects, small business tools, and real-world student ideas. We turn your vision into
-              reality with expert development and innovative solutions.
+              We empower tech projects, support small business tools, and collaborate with vendors to deliver innovative, real-world solutions. Whether you're launching a startup, growing your business, or bringing a unique idea to market, our expert development team is here to turn your vision into reality.
             </motion.p>
 
             <motion.div

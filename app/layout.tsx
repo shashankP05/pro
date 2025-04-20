@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Projectory - Build. Innovate. Empower.",
+  title: "Where Your Next Big Idea Finds Its Blueprint.",
   description: "Empowering students, independent thinkers, and small vendors to bring their tech-driven ideas to life.",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
