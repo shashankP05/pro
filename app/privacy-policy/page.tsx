@@ -47,7 +47,7 @@ export default function PrivacyPolicy() {
         <div>
           <h2 className="text-2xl font-semibold mb-2">Your Choices</h2>
           <p>
-            You may request access to, correction of, or deletion of your data by emailing us at <a className="text-blue-600 underline" href="mailto:projectory.team@gmail.com">projectory.team@gmail.com</a>.
+            You may request access to, correction of, or deletion of your data by emailing us at <a className="text-blue-600 underline" href="mailto:projectorysolutions@gmail.com">projectorysolutions@gmail.com</a>.
           </p>
         </div>
 
