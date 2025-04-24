@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import BackButton from "./BackButton1";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Projectory",
@@ -7,14 +8,14 @@ export const metadata: Metadata = {
 
 export default function TermsOfService() {
   return (
-    <main className="bg-white text-gray-800 py-16 px-6 sm:px-12 lg:px-32 max-w-5xl mx-auto">
+    <main className="relative bg-white text-gray-800 py-16 px-6 sm:px-12 lg:px-32 max-w-5xl mx-auto">
+      <BackButton />
+
       <h1 className="text-4xl font-bold mb-4">Terms of Service</h1>
-      <p className="text-sm text-gray-500 mb-10">Effective Date: April 22, 2025</p>
+      <p className="text-sm text-gray-500 mb-10">Last Updated: April 22, 2025</p>
 
       <section className="space-y-6 leading-relaxed">
-        <p>
-          By using Projectory’s services or website, you agree to the following terms.
-        </p>
+        <p>By using Projectory’s services or website, you agree to the following terms.</p>
 
         <div>
           <h2 className="text-2xl font-semibold mb-2">Our Services</h2>
@@ -36,7 +37,8 @@ export default function TermsOfService() {
         <div>
           <h2 className="text-2xl font-semibold mb-2">Payments & Refunds</h2>
           <p>
-            Pricing is communicated upfront. Due to the custom nature of our services, refunds are typically not available once work has started—unless pre-agreed in writing.
+            Pricing is communicated upfront. Due to the custom nature of our services, refunds are typically not available
+            once work has started—unless pre-agreed in writing.
           </p>
         </div>
 

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import BackButton from "./BackButton";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Projectory",
@@ -7,7 +8,9 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <main className="bg-white text-gray-800 py-16 px-6 sm:px-12 lg:px-32 max-w-5xl mx-auto">
+    <main className="relative bg-white text-gray-800 py-16 px-6 sm:px-12 lg:px-32 max-w-5xl mx-auto">
+      <BackButton />
+
       <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
       <p className="text-sm text-gray-500 mb-10">Last Updated: April 22, 2025</p>
 
