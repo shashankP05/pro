@@ -207,7 +207,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              We empower tech projects, support small business tools, and collaborate with vendors to deliver innovative, real-world solutions. Whether you're launching a startup, growing your business, or bringing a unique idea to market, our expert development team is here to turn your vision into reality.
+              We build innovative tech solutions, support small business tools, and collaborate with vendors to turn ideas into reality. Whether you're starting up or scaling up, our expert team is here to help.
             </motion.p>
 
             <motion.div

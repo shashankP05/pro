@@ -16,7 +16,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.facebook.com/projectory" 
+                href="https://www.facebook.com/share/16Vm86J8MD/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-400 hover:text-white transition-colors"
